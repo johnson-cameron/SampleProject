@@ -1,0 +1,386 @@
+<html lang="en">
+  <script src="https://use.fontawesome.com/379843e5ba.js"></script>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <section id="leftSide">
+    <h1>Customers</h1>
+    <div id="customerList">
+      <div id="MLS" class="contactCard" onclick="clicked('MLS')">
+        <h4>Main Liquid Steel</h4>
+        <p>Garney Mussel</p>
+        <p>mussel818@gmail.com</p>
+        <i class="MLS fa fa-chevron-right"></i>
+      </div>
+      <div id="VI" class="contactCard" onclick="clicked('VI')">
+        <h4>Vernon International</h4>
+        <p>Mikel Aria Woodin</p>
+        <p>mwoodin@vernon.net</p>
+        <i class="VI fa fa-chevron-right"></i>
+      </div>
+      <div id="L" class="contactCard" onclick="clicked('L')">
+        <h4>Lightfoot</h4>
+        <p>Kamby Terryal Sybang</p>
+        <p>kambylsybang@lightfoot.com</p>
+        <i class="L fa fa-chevron-right"></i>
+      </div>
+      <div id="ES" class="contactCard" onclick="clicked('ES')">
+        <h4>Ergo Systems</h4>
+        <p>Cash Vicky Tupp</p>
+        <p>cash@ergosys.co</p>
+        <i class="ES fa fa-chevron-right"></i>
+      </div>
+      <div id="ES2" class="contactCard" onclick="clicked('ES2')">
+        <h4>Ergo Systems</h4>
+        <p>Shardie Krimp</p>
+        <p>shardie@ergosys.co</p>
+        <i class="ES2 fa fa-chevron-right"></i>
+      </div>
+      <div id="SI" class="contactCard" onclick="clicked('SI')">
+        <h4>Supersonic Industries</h4>
+        <p>Luella Xorba Cross</p>
+        <p>lcross@supersonic.info</p>
+        <i class="SI fa fa-chevron-right"></i>
+      </div>
+    </div>
+  </section>
+
+  <section id="rightSide">
+    <h1>Orders</h1>
+    <div class="MLS orderCard">
+      <h1 class="contactCardH1">Main Liquid Steel</h2>
+      <div class="contactInfo">
+        <p>Garney Mussel</p>
+        <p>mussel818@gmail.com</p>
+      </div>
+      <div class="address">
+        <p>Site 5</p>
+        <p>9425 Lafayette Dr.</p>
+        <p>Suite 235</p>
+        <p>Galloway, OH</p>
+        <p>43119</p>
+      </div>
+      <div class="services">
+        <p class="service">SIP</p>
+        <p class="servPrice">$1,050.78</p>
+      </div>
+      <div class="total">
+        <h2>Total:</h2>
+        <p>$1,050.78</p>
+      </div>
+    </div>
+
+    <div class="VI orderCard">
+      <h1 class="contactCardH1">Vernon International</h1>
+      <div class="contactInfo">
+        <p>Mikel Aria Woodin</p>
+        <p>mwoodin@vernon.net</p>
+      </div>
+      <div class="address">
+        <p>Home Base</p>
+        <p>640 Lookout Ave.</p>
+        <p>Fleming Island, FL</p>
+        <p>32003</p>
+      </div>
+      <div class="services">
+        <p class="service">Ethernet (Copper)</p>
+        <p class="servPrice">$759.22</p>
+      </div>
+      <div class="services">
+        <p class="service">Hosted VoIP</p>
+        <p class="servPrice">$12,310.91</p>
+      </div>
+      <div class="total">
+        <h2>Total:</h2>
+        <p>$13,070.13</p>
+      </div>
+    </div>
+
+    <div class="L orderCard">
+      <h1 class="contactCardH1">Lightfoot</h1>
+      <div class="contactInfo">
+        <p>Kamby Terryal Sybang</p>
+        <p>kambylsybang@lightfoot.com</p>
+      </div>
+      <div class="address">
+        <p>Wild Horse</p>
+        <p>523 Wild Horse Circle</p>
+        <p>Building 3</p>
+        <p>Nazareth, PA</p>
+        <p>18064</p>
+      </div>
+      <div class="services">
+        <p class="service">Internet T1</p>
+        <p class="servPrice">$2,473.66</p>
+      </div>
+      <div class="total">
+        <h2>Total:</h2>
+        <p>$2,473.66</p>
+      </div>
+    </div>
+
+    <div class="ES orderCard">
+      <h1 class="contactCardH1">Ergo Systems</h1>
+      <div class="contactInfo">
+        <p>Cash Vicky Tupp</p>
+        <p>cash@ergosys.co</p>
+      </div>
+      <div class="address">
+        <p>Uptown</p>
+        <p>8879 E. Jockey Hollow Lane</p>
+        <p>Leesburg</p>
+        <p>VA</p>
+        <p>20175-5084</p>
+      </div>
+      <div class="services">
+        <p class="service">Ethernet (Fiber)</p>
+        <p class="servPrice">$15,944.06</p>
+      </div>
+      <div class="total">
+        <h2>Total:</h2>
+        <p>$15,944.06</p>
+      </div>
+    </div>
+
+    <div class="ES2 orderCard">
+      <h1 class="contactCardH1">Ergo Systems</h1>
+      <div class="contactInfo">
+        <p>Shardie Krimp</p>
+        <p>shardie@ergosys.co</p>
+      </div>
+      <div class="address">
+        <p>Downtown</p>
+        <p>9194 Cooper Drive</p>
+        <p>Fredericksburg</p>
+        <p>VA</p>
+        <p>22405</p>
+      </div>
+      <div class="services">
+        <p class="service">Contact Center</p>
+        <p class="servPrice">$10,982.54</p>
+      </div>
+      <div class="services">
+        <p class="service">Business Cable</p>
+        <p class="servPrice">$748.98</p>
+      </div>
+      <div class="total">
+        <h2>Total:</h2>
+        <p>$11,731.52</p>
+      </div>
+    </div>
+
+    <div class="SI orderCard">
+      <h1 class="contactCardH1">Supersonic Industries</h1>
+      <div class="contactInfo">
+        <p>Luella Xorba Cross</p>
+        <p>lcross@supersonic.info</p>
+      </div>
+      <div class="address">
+        <p>Lookout</p>
+        <p>41 Lookout Rd.</p>
+        <p>Skokie</p>
+        <p>IL</p>
+        <p>60076</p>
+      </div>
+      <div class="services">
+        <p class="service">Ethernet (Fiber)</p>
+        <p class="servPrice">$9,387.47</p>
+      </div>
+      <div class="total">
+        <h2>Total:</h2>
+        <p>$9,387.47</p>
+      </div>
+    </div>
+    <div id="unselected">
+      <h3><i id="hiddenIcon" class="fa fa-arrow-left"></i>Select a customer to view orders</h3>
+    </div>
+  </section>
+</body>
+</html>
+
+<script>
+"use strict";
+function clicked(id){
+  resetOrder();
+  document.getElementById(id).style.backgroundColor = "#F4FBFF";
+  document.getElementById(id).style.borderColor = "#0086DC";
+  let list = document.getElementsByClassName(id);
+      for (let x = 0; x < list.length; x++) {
+        list[x].style.display = "block";
+      };
+};
+
+function resetOrder(){
+  for (let x = 0; x < document.getElementsByClassName('MLS').length; x++) {
+    document.getElementsByClassName('MLS')[x].style.display = "none";
+    document.getElementById("MLS").style.backgroundColor = "#FAFAFA";
+    document.getElementById("MLS").style.borderColor = "#D8D8D8";
+  };
+  for (let x = 0; x < document.getElementsByClassName('VI').length; x++) {
+    document.getElementsByClassName('VI')[x].style.display = "none";
+    document.getElementById("VI").style.backgroundColor = "#FAFAFA";
+    document.getElementById("VI").style.borderColor = "#D8D8D8";
+    
+  };
+  for (let x = 0; x < document.getElementsByClassName('ES').length; x++) {
+    document.getElementsByClassName('ES')[x].style.display = "none";
+    document.getElementById("ES").style.backgroundColor = "#FAFAFA";
+    document.getElementById("ES").style.borderColor = "#D8D8D8";
+  };
+  for (let x = 0; x < document.getElementsByClassName('ES2').length; x++) {
+    document.getElementsByClassName('ES2')[x].style.display = "none";
+    document.getElementById("ES2").style.backgroundColor = "#FAFAFA";
+    document.getElementById("ES2").style.borderColor = "#D8D8D8";
+  };
+  for (let x = 0; x < document.getElementsByClassName('SI').length; x++) {
+    document.getElementsByClassName('SI')[x].style.display = "none";
+    document.getElementById("SI").style.backgroundColor = "#FAFAFA";
+    document.getElementById("SI").style.borderColor = "#D8D8D8";
+  };
+  for (let x = 0; x < document.getElementsByClassName('L').length; x++) {
+    document.getElementsByClassName('L')[x].style.display = "none";
+    document.getElementById("L").style.backgroundColor = "#FAFAFA";
+    document.getElementById("L").style.borderColor = "#D8D8D8";
+  };
+};
+
+</script>
+
+<style>
+body{
+  display: flex;
+  background-color: #EFEFEF;
+  width: 100%;
+}
+.MLS{
+  display: none;
+}
+.VI{
+  display: none;
+}
+.ES{
+  display: none;
+}
+.ES2{
+  display: none;
+}
+.SI{
+  display: none;
+}
+.L{
+  display: none;
+}
+h1{
+  font-size: 32px;
+  font: Georgia;
+  font-weight: 300;
+  color: #004876;
+}
+h2{
+  font-size: 28px;
+  font: Georgia;
+  color: #444444;
+}
+h3{
+  font-size: 24px;
+  font: Georgia;
+  color: #777777;
+}
+h4{
+  font-size: 14px;
+  font: Verdana;
+  font-weight: bold;
+  color: #444444;
+  margin: 15px 0 5px 0;
+}
+p{
+  font: Verdana;
+  font-size: 14px;
+  color: #444444;
+  margin: 0;
+}
+#leftSide{
+  margin-left: 20px;
+}
+.orderCard{
+  background-color: #FAFAFA;
+  border: #D8D8D8 1px solid;
+}
+.contactCard{
+  border: #D8D8D8 1px solid;
+  background-color: #FAFAFA;
+  width: 250px;
+  text-align: left;
+  margin: 8px 0;
+  display: block;
+  padding: 0 0 0 15px;
+  height: 80px;
+  box-shadow: 0px 0px 6px 4px rgba(216, 216, 216, 0.6);
+}
+.contactCard:hover{
+  cursor: pointer;
+}
+.contactCardH1{
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.contactInfo{
+  margin: 5px 0 20px 15px;
+}
+.address{
+  width: 165px;
+  margin: 15px;
+}
+.services{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.servPrice{
+  width: 150px;
+  text-align: right;
+}
+.total{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: #777777 solid 1px;
+  line-height: 0;
+  margin-top: 15px;
+  width: 89%;
+  padding: 0 25px;
+}
+i{
+  position: relative;
+  left: 225px;
+  bottom: 40px;
+}
+#rightSide{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  justify-content: right;
+  margin: 0 50px;
+}
+#unselected{
+  z-index: -1;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  display: flex;
+  width: 245px;
+  text-align: center;
+}
+#hiddenIcon{
+  position: static;
+  margin-right: 15px;
+}
+.fa-chevron-right{
+  color: #0086DC;
+}
+</style>
